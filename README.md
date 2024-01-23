@@ -3,7 +3,7 @@
 ## Working
 
 The simulator takes input as an instruction like `<core> <state> <address>` and updates the cache memory directory and data along with the main memory directory and data accordingly.
-There are four cores, each having a cache, which is two-way associative, having four cache lines, and each line is byte addressable. The main memory directory contains state, owner and sharer bits of all 64 addresses along with the data present at that address
+There are four cores, each having a cache, which is two-way associative, having four cache lines, and each line is byte addressable. The main memory directory contains state, owner and sharer bits of all 64 addresses along with the data present at that address.
 
 All the updates in the cache are printed in a log file generated after executing each of the test cases, and after every test case, the memory directory is printed on the terminal.
 
